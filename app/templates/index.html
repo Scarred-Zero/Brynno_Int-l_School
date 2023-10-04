@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge; charset=UTF-8">
+        <!-- Mofale Specific Meta-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully responsive School Website" name="description" />
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta content="Artech" name="author" />
+        <title>{{ title }}</title>
+        
+        <!-- App icon -->
+        <link rel="icon" sizes="16x16" type="image/png" href="/static/school/assets/images/partner_2.04.png"/>
+        <!-- bootstrap.min css -->
+        <link rel="stylesheet" href="/static/school/assets/css/bootstrap.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- Iconfont Css -->
+        <link rel="stylesheet" href="/static/school/assets/css/all.css">
+        <!-- Googleapis Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Josefin Sans|Quicksand">
+        <!-- animate.css -->
+        <link rel="stylesheet" href="/static/school/assets/css/animate.css">
+        <!-- WooCOmmerce CSS -->
+        <link rel="stylesheet" href="/static/school/assets/css/woocommerce-layouts.css">
+        <link rel="stylesheet" href="/static/school/assets/css/woocommerce-small-screen.css">
+        <link rel="stylesheet" href="/static/school/assets/css/woocommerce.css">
+        <!-- Owl Carousel  CSS -->
+        <link rel="stylesheet" href="/static/school/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/static/school/assets/css/owl.theme.default.min.css">
+
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="/static/school/assets/css/style.css">
+        <link rel="stylesheet" href="/static/school/assets/css/responsive.css">
+
+    </head>
+
+    <body id="top-header"> 
+        <!-- Header Start -->
+        <header>
+            <!-- Main Menu Start -->
+            <div class="site-navigation menu-2" id="mainmenu-area">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/school/home">
+                            <img src="/static/school/assets/images/logo.png" alt="Brynno International School" class="img-fluid">
+                        </a>
+
+                        <!-- Toggler -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fa fa-bars"></span>
+                        </button>
+
+                        <!-- Collapse -->
+                        <div class="collapse navbar-collapse" id="navbarMenu">
+                            <form action="http://pxelcode.com/tf-db/edutim/edutim/index.html#" class="header-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <i class="fa fa-search"></i>
+                            </form> 
+                            
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="/school/home" id="navbar3" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/school/admissions" id="navbar3" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Admissions<i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbar3">
+                                        <a class="dropdown-item " href="/school/crèche">
+                                            Admission into Crèche
+                                        </a>
+                                        <a class="dropdown-item " href="/school/nursery">
+                                            Admission into Nursery
+                                        </a>
+                                        <a class="dropdown-item " href="/school/primary">
+                                            Admission into Primary
+                                        </a> 
+                                        <a class="dropdown-item " href="/school/secondary">
+                                            Admission into Secondary
+                                        </a> 
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/school/events" id="navbar3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Events<i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbar3">
+                                        <a class="dropdown-item " href="/school/events">
+                                            Cultural Day
+                                        </a>
+                                        <a class="dropdown-item " href="/school/events">
+                                            Orientation Day
+                                        </a>
+                                        <a class="dropdown-item " href="/school/events">
+                                            Variety Show
+                                        </a>
+                                        <a class="dropdown-item " href="/school/events">
+                                            Escortion Day
+                                        </a>
+                                        <a class="dropdown-item " href="/school/events">
+                                            Closing &amp; Resumption Day
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ">
+                                    <a href="/school/about" class="nav-link js-scroll-trigger">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="/school/contact" class="nav-link">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <a href="/admin/login" class="btn btn-main btn-small"><i class="fa fa-sign-in-alt mr-2"></i>Login</a>
+                        
+                        </div> 
+                        <!-- / .navbar-collapse -->
+                    </div> 
+                    <!-- / .container -->
+                </nav>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!--search overlay start-->
+        <div class="search-wrap">
+            <div class="overlay">
+                <form action="http://pxelcode.com/tf-db/edutim/edutim/index.html" class="search-form">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-9">
+                                <h3>Search Your keyword</h3>
+                                <input type="text" class="form-control" placeholder="Search...">
+                            </div>
+                            <div class="col-md-2 col-3 text-right">
+                                <div class="search_toggle toggle-wrap d-inline-block">
+                                    <img class="search-close" src="/static/school/assets/images/close.png" srcset="assets/images/close@2x.png 2x" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--search overlay end-->
+
+        <!--Banner start--> 
+        <section class="banner banner-2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-8">
+                        <div class="banner-content center-heading">
+                            <span class="subheading">Expert instruction</span>
+                            <h1>Build Skills With Experts Any Time, Anywhere </h1>
+                            <p>We invest in personnel, technological innovations and infrastructure and have established regional and international offices.</p>
+                            <a href="#" class="btn btn-main"><i class="fa fa-list-ul mr-2"></i>our Schools </a>  
+                        </div>
+                    </div>
+                </div> 
+                <!-- / .row -->
+            </div> 
+            <!-- / .container -->
+        </section>
+        <!--Banner end--> 
+
+        <!--Category section start--> 
+        <section class="category-section2">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="course-categories">
+                        <div class="category-item category-bg-1">
+                        <a href="/school/crèche">
+                            <div class="category-icon">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <h4>Visit our Crèche</h4>
+                        </a>
+                        </div>
+                        <div class="category-item category-bg-2">
+                            <a href="/school/nursery">
+                                <div class="category-icon">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                                <h4>Visit our Nursery</h4>
+                            </a>
+                        </div>
+                        <div class="category-item category-bg-3">
+                            <a href="/school/primary">
+                                <div class="category-icon">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                                <h4>Visit our Primary</h4>
+                            </a>
+                        </div>
+
+                        <div class="category-item category-bg-4">
+                            <a href="/school/secondary">
+                                <div class="category-icon">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                                <h4>Visit our Secondary</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Category section end--> 
+
+        <section class="about-section section-padding about-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                    <div class="about-img2">
+                        <img src="/static/school/assets/images/choose.png" alt="" class="img-fluid">
+                    </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="section-heading">
+                            <span class="subheading">Welcome</span>
+                            <h3>Message From The Proprietress</h3>
+                        </div>
+                        <p>
+                            In Brynno International School we aim at nurturing and training youths in intellectual excellence with sound moral values as well as sound academic knowledge. We believe that if a child is raised in the way he/she should go-[the way of the Lord], he/she will not depart from it. The Word of God says this and we believe this wholeheartedly and are earnestly committed to achieving it.
+                        </p>
+                        <a href="/school/proprietress" class="btn btn-main"><i class="fa fa-check mr-2"></i>Learn more about the Proprietress</a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section-padding feature-2">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-item feature-style-2">
+                            <div class="course-img">
+                                <img src="/static/school/assets/images/blog_02.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="feature-icon">
+                                <i class="fa fa-headset"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Expert Teacher</h4>
+                                <p>Behind the word mountains, far from the countries</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-item feature-style-2">
+                            <div class="course-img">
+                                <img src="/static/school/assets/images/event_03.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="feature-icon">
+                                <i class="fa fa-headset"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Quality Education</h4>
+                                <p>Behind the word mountains, far from the countries </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-item feature-style-2">
+                            <div class="course-img">
+                                <img src="/static/school/assets/images/course_06.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="feature-icon">
+                                <i class="fa fa-headset"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Life Time Support</h4>
+                                <p>Behind the word mountains, far from the countries</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="feature-item feature-style-2">
+                            <div class="course-img">
+                                <img src="/static/school/assets/images/event_01.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="feature-icon">
+                                <i class="fa fa-headset"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>HD Video</h4>
+                                <p>Behind the word mountains, far from the countries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Counter wrap start --> 
+        <section class="counter-wrap section-padding counter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-item">
+                            <i class="ti-desktop"></i>
+                            <div class="count">
+                                <span class="counter h2">90</span>
+                            </div>
+                            <p>Expert Instructors</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-item">
+                            <i class="ti-agenda"></i>
+                            <div class="count">
+                                <span class="counter h2">1450</span>
+                            </div>
+                            <p>Total Courses</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">         
+                        <div class="counter-item">
+                            <i class="ti-heart"></i>
+                            <div class="count">
+                                <span class="counter h2">5697</span>
+                            </div>
+                            <p>Happy Students</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-item">
+                            <i class="ti-microphone-alt"></i>
+                            <div class="count">
+                                <span class="counter h2">24</span>
+                            </div>
+                            <p>Creative Events</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Counter wrap end --> 
+
+        <!--course section start-->
+        <section class="section-padding video-section2 clearfix">
+            <div class="video-block-container"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <span class="subheading">Working Process</span>
+                            <h3>Watch video to know more about us</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#" class="video-icon"><i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        <!--course-->
+        </section>
+
+        <!--course section end--> 
+        <section class="testimonial section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-heading center-heading text-center">
+                            <span class="subheading">Testimonials</span>
+                            <h3>Learn New Skills Here in Brynno International School to Go Ahead for Your Career💯‼</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="testimonials-slides owl-carousel owl-theme owl-loaded owl-drag"> 
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage" style="transition: all 0.25s ease 0s; width: 3360px; transform: translate3d(-1119px, 0px, 0px);">
+                                    
+                                    <div class="owl-item cloned" style="width: 363.333px; margin-right: 10px;">
+                                        <div class="review-item">
+                                            <div class="client-info">
+                                                <i class="fa fa-quote"></i>
+                                                <p> I am glad that my child is one of the top winners in the Enugu state annual mathematics competition, thanks to Brynno International School.</p>
+                                                <div class="rating">
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="client-desc">
+                                                <div class="client-img">
+                                                    <img src="/static/school/assets/images/test-1.jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="client-text">
+                                                    <h4>John Doe</h4>
+                                                    <span class="designation">Parent</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 363.333px; margin-right: 10px;">
+                                        <div class="review-item">
+                                            <div class="client-info">
+                                                <i class="fa fa-quote"></i>
+                                                <p>Brynno International School is the best, so much improvement in my child's academics, behaviour and attitude towards learning.</p>
+                                                <div class="rating">
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="client-desc">
+                                                <div class="client-img">
+                                                    <img src="/static/school/assets/images/test-2.jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="client-text">
+                                                    <h4>John Doe</h4>
+                                                    <span class="designation">Parent</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 363.333px; margin-right: 10px;">
+                                        <div class="review-item">
+                                            <div class="client-info">
+                                                <i class="fa fa-quote"></i>
+                                                <p>Brynno International School is committed to providing pupils with support &amp; opportunities to grow emotionally, socially &amp; creatively.</p>
+                                                <div class="rating">
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="client-desc">
+                                                <div class="client-img">
+                                                    <img src="/static/school/assets/images/test-3.jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="client-text">
+                                                    <h4>John Doe</h4>
+                                                    <span class="designation">Parent</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 363.333px; margin-right: 10px;">
+                                        <div class="review-item">
+                                            <div class="client-info">
+                                                <i class="fa fa-quote"></i>
+                                                <p>I must say I am marvelled at the rate with which my son has improved since he joined Brynno International School, I recommend this school for all parents.</p>
+                                                <div class="rating">
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="client-desc">
+                                                <div class="client-img">
+                                                    <img src="/static/school/assets/images/test-1.jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="client-text">
+                                                    <h4>John Doe</h4>
+                                                    <span class="designation">Parent</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active center" style="width: 363.333px; margin-right: 10px;">
+                                        <div class="review-item">
+                                            <div class="client-info">
+                                                <i class="fa fa-quote"></i>
+                                                <p>Brynno International School is the best, so much improvement in my child's academics, behaviour and attitude towards learning.</p>
+                                                <div class="rating">
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="client-desc">
+                                                <div class="client-img">
+                                                    <img src="/static/school/assets/images/test-2.jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="client-text">
+                                                    <h4>John Doe</h4>
+                                                    <span class="designation">Parent</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 363.333px; margin-right: 10px;">
+                                        <div class="review-item">
+                                            <div class="client-info">
+                                                <i class="fa fa-quote"></i>
+                                                <p>Brynno International School is committed to providing pupils with support &amp; opportunities to grow emotionally, socially &amp; creatively.</p>
+                                                <div class="rating">
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                    <a href="/school/home#"><i class="fa fa-star"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="client-desc">
+                                                <div class="client-img">
+                                                    <img src="/static/school/assets/images/test-3.jpg" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="client-text">
+                                                    <h4>John Doe</h4>
+                                                    <span class="designation">Parent</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-nav disabled">
+                                <button type="button" role="presentation" class="owl-prev">
+                                    <span aria-label="Previous">‹</span>
+                                </button>
+                                <button type="button" role="presentation" class="owl-next">
+                                    <span aria-label="Next">›</span>
+                                </button>
+                            </div>
+                            <div class="owl-dots disabled">
+                                <button role="button" class="owl-dot">
+                                    <span></span>
+                                </button>
+                                <button role="button" class="owl-dot active">
+                                    <span></span>
+                                </button>
+                                <button role="button" class="owl-dot">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team section-padding bg-grey">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <span class="subheading">Brynno's Expert Trainers</span>
+                            <h3>Our Professional teachers</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="course-btn text-lg-right"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#" class="btn btn-main"><i class="fa fa-user mr-2"></i>Join With us</a></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <img src="/static/school/assets/images/team-4.jpg" alt="" class="img-fluid">
+                            <div class="team-info">
+                                <h4>Harish Ham</h4>
+                                <p>CEO, Developer</p>
+
+                                <ul class="team-socials list-inline">
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <img src="/static/school/assets/images/team-1.jpg" alt="" class="img-fluid">
+                            <div class="team-info">
+                                <h4>Tanvir Hasan</h4>
+                                <p>Market Researcher</p>
+                                <ul class="team-socials list-inline">
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <img src="/static/school/assets/images/team-2.jpg" alt="" class="img-fluid">
+                            <div class="team-info">
+                                <h4>Mikele John</h4>
+                                <p>Content Writter</p>
+                                <ul class="team-socials list-inline">
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <img src="/static/school/assets/images/team-3.jpg" alt="" class="img-fluid">
+                            <div class="team-info">
+                                <h4>Mikele John</h4>
+                                <p>Content Writter</p>
+                                <ul class="team-socials list-inline">
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-heading center-heading">
+                            <span class="subheading">News &amp; Announcements</span>
+                            <h3>Latest News</h3>
+                            <p>We are determined to keep you and your ward(s) updated and up to speed with the latest information, news and announcements here at Brynno.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">               
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <img src="/static/school/assets/images/news-1.jpg" alt="" class="img-fluid">
+                            <div class="blog-content">
+                                <div class="entry-meta">
+                                    <span><i class="fa fa-calendar-alt"></i>May 19, 2020</span>
+                                    <span><i class="fa fa-comments"></i>1 comment</span>
+                                </div>
+            
+                                <h2><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Powerful tips to grow business manner</a></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicin gelit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#" class="btn btn-main btn-small"><i class="fa fa-plus-circle mr-2"></i>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <img src="/static/school/assets/images/news-2.jpg" alt="" class="img-fluid">
+                            <div class="blog-content">
+                                <div class="entry-meta">
+                                    <span><i class="fa fa-calendar-alt"></i>May 19, 2020</span>
+                                    <span><i class="fa fa-comments"></i>1 comment</span>
+                                </div>
+            
+                                <h2><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Powerful tips to grow effective manner</a></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicin gelit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#" class="btn btn-main btn-small"><i class="fa fa-plus-circle mr-2"></i>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <img src="/static/school/assets/images/news-3.jpg" alt="" class="img-fluid">
+                            <div class="blog-content">
+                                <div class="entry-meta">
+                                    <span><i class="fa fa-calendar-alt"></i>May 19, 2020</span>
+                                    <span><i class="fa fa-comments"></i>1 comment</span>
+                                </div>
+            
+                                <h2><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Python may be you completed online </a></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicin gelit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#" class="btn btn-main btn-small"><i class="fa fa-plus-circle mr-2"></i>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer start -->
+        <section class="footer pt-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mr-auto col-sm-6 col-md-6">
+                        <div class="widget footer-widget mb-5 mb-lg-0">
+                            <h5 class="widget-title">About Us</h5>
+                            <p class="mt-3">
+                                In Brynno International School we aim at nurturing and training youths in intellectual excellence with sound moral values as well as sound academic knowledge. We believe that if a child is raised in the way he/she should go-[the way of the Lord], he/she will not depart from it. The Word of God says this and we believe this wholeheartedly and are earnestly committed to achieving it.</p>
+                            <ul class="list-inline footer-socials">
+                                <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-facebook"></i></a></li>
+                                <li class="list-inline-item"> <a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#"><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-sm-6 col-md-6">
+                        <div class="footer-widget mb-5 mb-lg-0">
+                            <h5 class="widget-title">Portals</h5>
+                            <ul class="list-unstyled footer-links">
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Crèche Portal</a></li>
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Nursery School Portal</a></li>
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Primary School Portal</a></li>
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Secondary School Portal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 col-md-6">
+                        <div class="footer-widget mb-5 mb-lg-0">
+                            <h5 class="widget-title">Admissions</h5>
+                            <ul class="list-unstyled footer-links">
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Admission into Crèche</a></li>
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Admission into Nursery</a></li>
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Admission into Primary</a></li>
+                                <li><a href="http://pxelcode.com/tf-db/edutim/edutim/index.html#">Admission into Secondary</a></li
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-6">
+                        <div class="footer-widget footer-contact mb-5 mb-lg-0">
+                            <h5 class="widget-title">Contact </h5>
+                            
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-phone"></i>
+                                    <div>
+                                        <strong>Phone number</strong>
+                                        0803 338 6469 (Brynno International School)
+                                    </div>
+                                    
+                                </li>
+                                <li> <i class="fa fa-envelope"></i>
+                                    <div>
+                                        <strong>Email Address</strong>
+                                        info@yourdomain.com
+                                    </div>
+                                </li>
+                                <li><i class="fa fa-map-marker"></i>
+                                    <div>
+                                        <strong>School Address</strong>
+                                        38 Charismatic rd Pipeline Rumuokwurushi, Portharcourt, Rivers, Port harcourt, Rivers State.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-btm">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-6">
+                            <div class="footer-logo">
+                                <img src="/static/school/assets/images/logo-white.png" alt="Brynno International School" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="copyright text-lg-center">
+                                <p>
+                                    <script>document.write(new Date().getFullYear())</script> © Brynno International School - Crafted by <a href="https://themeturn.com/">Artech</a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer end -->
+
+        <div class="fixed-btm-top">
+            <a href="/school/home#top-header" class="js-scroll-trigger scroll-to-top"><i class="fa fa-angle-up"></i></a>
+        </div>
+
+        <!--Essential Scripts=====================================-->
+        
+        <!-- Main jQuery -->
+        <script src="/static/school/assets/js/jquery.js.download"></script>
+        <!-- Bootstrap 4.5 -->
+        <script src="/static/school/assets/js/bootstrap.js.download"></script>
+        <!-- Counterup -->
+        <script src="/static/school/assets/js/waypoint.js.download"></script>
+        <script src="/static/school/assets/js/jquery.counterup.min.js.download"></script>
+        <script src="/static/school/assets/js/jquery.isotope.js.download"></script>
+        <script src="/static/school/assets/js/imagesloaded.js.download"></script>
+        <!--  Owlk Carousel-->
+        <script src="/static/school/assets/js/owl.carousel.min.js.download"></script>
+        <script src="/static/school/assets/js/script.js.download"></script>
+
+    </body>
+</html>
