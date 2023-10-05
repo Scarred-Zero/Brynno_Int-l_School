@@ -52,7 +52,7 @@
     autoplayHoverPause: true,
     autoplay: false,
     responsiveClass: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 3000,
     navText: ["<i class='fa fa-arrow-left-rounded'></i>", "<i class='fa fa-arrow-right-rounded'></i>"],
     responsive: {
       0: {
@@ -82,7 +82,7 @@
     autoplayHoverPause: true,
     autoplay: false,
     responsiveClass: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 3000,
     center: true,
     navText: ["<i class='fa fa-arrow-left-rounded'></i>", "<i class='fa fa-arrow-right-rounded'></i>"],
     responsive: {

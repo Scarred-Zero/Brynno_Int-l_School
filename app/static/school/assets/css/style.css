@@ -1,13 +1,9 @@
 /*==================
-Author       : Dreambuzz
-Template Name: Edutim- Education LMS template
+Author       : Artech
 Author URI : https://themeturn.com/
-Description: edutim,coaching, distant learning, education html, health coaching, kids education, language school, learning online html, live training, online courses, online training, remote training, school html theme, training, university html, virtual training 
-Version      : 1.0
 ================================*/
 /*------------------------------------------------------------------
 [Table of contents]
-
 1. Common
 2. Typography
 3. Navigation / #navbar
@@ -257,10 +253,12 @@ Banner Area
   padding: 120px 0px;
   background: #F4FDFF;
   position: relative;
-  background: url("../images/bg/page-header.jpg") no-repeat;
+  background: url("../images/about-bg.jpg") no-repeat;
   background-size: cover;
   background-position: 0px 10%;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 8px;
 }
 
 .page-header:before {
@@ -270,8 +268,9 @@ Banner Area
   top: 0px;
   width: 100%;
   height: 100%;
-  background: #263b5e;
-  opacity: .85;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: .9;
+  border-radius: 8px;
 }
 
 .page-header .page-header-content h1 {
@@ -281,14 +280,17 @@ Banner Area
 }
 
 .page-header .page-header-content ul li {
+  margin-bottom: 35px;
+  font-size: 36px;
+  line-height: 32px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
+  padding-bottom: 1em;
 }
 
 .page-header .page-header-content ul li a {
   color: #fff;
-  opacity: .7;
 }
 
 .page-wrapper {
@@ -302,27 +304,45 @@ Banner Area
 .mt--105 {
   margin-top: -105px;
 }
-#activity-w3 {
-  padding: 5em 2em;
-  background: transparent;
-  display: grid;
+
+/* what */
+.what-w3 {
+  padding: 5em 0;
+  background: rgb(249, 245, 239);
 }
-.activity-grid h4 {
-  font-size: 1.5em;
+h3.tittle{
+  font-size: 3.5em;
+  color: #49872E;
+  text-align: center;
+}
+h3.tittle1 {
+  font-size: 3.5em;
+  color: #49872E;
+  text-align: center;
+  margin-bottom:0.8em;
+}   
+.what-grids{
+  margin-top: 4em;
+}
+.what-grid h4{
+  font-size: 2em;
   color: #FF1949;
 }
-.activity-grid p {
+.what-grid p{
   font-size: 1em;
   line-height: 1.8em;
   margin-top: 1em;
 }
-.activity-bottom1 {
+.what-bottom1 {
   margin-bottom: 2em;
+}
+.welcome-w3{
+  padding: 5em 0;
 }
 ul.grid-part li {
   list-style: none;
   font-size: 1em;
-  color: #212529;
+  color: #777;
   line-height: 2em;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -334,7 +354,7 @@ ul.grid-part {
   margin-top: 1em;
 }
 ul.grid-part li :hover {
-  color: #0077b5;
+  color: #990000;
   padding-left: 0.2em;
 }
 ul.grid-part li i {
@@ -348,78 +368,107 @@ ul.grid-part li i {
   -ms-transition: 0.5s all;
 }
 @media (max-width: 1080px){
-  .activity-grids{
-    margin-top: 3em;
+  h3.tittle, h3.tittle1{
+    font-size: 3.2em;
   }
-  .activity-grid h4  {
+  .what-grid h4{
     font-size: 1.8em;
-  }  
-  .activity-grid p{
-    font-size: 0.965em;
   }
-  .activity-grid {
-    float: left;
-    width: 50%;
+  .what-grid p{
+    font-size: 0965em;
   }
   ul.grid-part li {
-  font-size: 0.965em;
+    font-size: 0.965em;
   }
 }
 @media (max-width: 991px){
-  .activity-grid {
+  .what-grid {
     float: left;
     width: 50%;
   }
-  .activity-grids{
+  .what-grids{
     margin-top: 3em;
   }
-  .activity-grid h4{
+  .what-grid h4{
     font-size: 1.7em;
   }
-  #activity-w3{
+  .what-w3{
+    padding: 4em 0;
+  }
+  h3.tittle, h3.tittle1{
+    font-size: 3em;
+  }
+  .welcome-w3{
     padding: 4em 0;
   }
 }
+@media (max-width: 736px) {
+  h3.tittle, h3.tittle1{
+    font-size: 2.8em;
+  }
+}
 @media(max-width:667px){
-  #activity-w3{
+  .what-w3{
     padding: 3em 0;
   }
-  .activity-grid h4{
+  .what-grid h4{
     font-size: 1.6em;
+  }
+  .welcome-w3{
+    padding: 3em 0;
   }
 }
 @media(max-width:640px){
-  .activity-grid p{
+  .what-grid p{
     font-size: 0.96em;
   }
   ul.grid-part li {
     font-size: 0.96em;
   }
 }
+@media (max-width: 600px) {
+  h3.tittle, h3.tittle1{
+    font-size: 2.5em;
+  }
+}
 @media(max-width:568px){
-  .activity-grid {
+  .what-grid {
     width: 100%;
   }
-  .activity-grid:nth-child(2) {
+  .what-grid:nth-child(2) {
     margin-top: 2em;
+  }
+}
+@media(max-width: 480px){
+  h3.tittle, h3.tittle1{
+    font-size: 2.4em;
   }
 }
 @media(max-width:414px){
-  .activity-grids{
+  .what-grids{
     margin-top: 2em;
+  }
+  h3.tittle, h3.tittle1{
+    font-size: 2.1em;
   }
 }
 @media(max-width:384px){
-  .activity-grid h4{
+  .what-grid h4{
     font-size: 1.5em;
   }
-  #activity-w3{
+  .what-w3{
+    padding: 2em 0;
+  }
+  .welcome-w3{
     padding: 2em 0;
   }
 }
 @media(max-width:320px){
-  .activity-grid{
+  .what-grid{
     padding: 0;
+  }
+  h3.tittle1{
+    margin-bottom: 0.4em;
   }
 }
 
@@ -483,7 +532,7 @@ Header TopBar
 
 .header-contact li {
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .header-contact li i {
@@ -495,7 +544,7 @@ Header TopBar
 }
 
 .header-contact li:last-child {
-  padding-left: 35px;
+  padding-left: 20px;
 }
 
 .header-contact li, .header-socials li {
@@ -509,7 +558,7 @@ Header TopBar
 
 .header-socials li {
   padding: 0px 10px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .header-socials li a {
@@ -524,7 +573,7 @@ Header TopBar
 
 .header-btn .btn {
   color: #fff;
-  background: #FF1949;
+  background: #0077b5;
   border-radius: 0px;
   padding: 12px 30px;
   font-size: 14px;
@@ -618,7 +667,7 @@ Header TopBar
   position: absolute;
   border-top: 2.8px solid #0077b5;
   border-radius: 8px;
-  background-color:  rgba(55, 54, 54, 0.4);
+  background-color:  rgba(55, 54, 54, 0.5);
   backdrop-filter: blur(5px);
   padding: 0px;
   visibility: hidden;
@@ -667,7 +716,7 @@ Header TopBar
   background: rgba(0, 119, 181, 0.3);
   color: #000;
   border: 0px solid transparent;
-  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
 }
 
 .header-form i {
@@ -784,6 +833,15 @@ Header TopBar
   line-height: 65px;
   letter-spacing: -1.3px;
   color: #fff;
+}
+
+#breadcrumps{
+  color: #0077b5;
+}
+#breadcrumps:hover{
+  color: #3bc0c3;
+  border-bottom: 5px solid #3bc0c3;
+  transition: .07s ease-in-out;
 }
 
 .banner .banner-content p {
@@ -1597,7 +1655,7 @@ VIDEO SECTION
   height: 70%;
   background: rgba(7, 41, 77, 0.98);
   z-index: -1;
-  background-image: url("../images/bg/cta-bg.jpg");
+  background-image: url("../images/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1954,7 +2012,7 @@ About Section
   opacity: .8;
 }
 
-.team .team-item {
+.team {
   text-align: center;
   border: 2px solid #fff;
   padding: 30px 20px 40px 20px;
@@ -1963,7 +2021,17 @@ About Section
   position: relative;
   margin-bottom: 30px;
 }
-
+.team-item{
+  text-align: center;
+  border-top: 2px solid #0077b5;
+  border-radius: 7px;
+  padding: 30px 20px 40px 20px;
+  transition: .4s;
+  background: #fff;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
+}
 .team .team-item:hover img {
   margin-top: -10px;
 }
@@ -1973,8 +2041,8 @@ About Section
 }
 
 .team .team-item:hover {
-  box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
-  background: #fff;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 119, 181, 0.5)
 }
 
 .team .team-item img {
