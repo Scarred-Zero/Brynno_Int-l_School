@@ -197,6 +197,21 @@
     font-size: 40px;
     line-height: 60px;
   }
+  .banner-content ul {
+    display: none;
+    text-align: left;
+    margin-top: 8px;
+  }
+  .banner-content ul li {
+    display: block;
+    margin-top: 10px;
+  }
+  .banner-content ul li:first-child {
+    margin-top: 0;
+  }
+  .banner-content ul li::after {
+    display: none;
+  }
   .header-contact li, .header-socials li {
     float: none;
     text-align: center;
@@ -268,6 +283,19 @@
   }
   .course-block {
     margin-bottom: 30px;
+  }
+  .category-area .category-items .equal-height .item-box {
+    display: block;
+    text-align: center;
+  }
+
+  .category-area .category-items .equal-height .item-box .info {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .category-area .category-items .equal-height {
+    width: 50%;
+    float: left;
   }
   .banner-6 .banner-content h1 {
     font-size: 37px;

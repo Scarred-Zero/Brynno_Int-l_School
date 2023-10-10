@@ -15,16 +15,10 @@
         <link rel="stylesheet" href="/static/school/assets/css/bootstrap.css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-        <!-- Iconfont Css -->
-        <link rel="stylesheet" href="/static/school/assets/css/all.css">
         <!-- Googleapis Font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Josefin Sans|Quicksand">
         <!-- animate.css -->
         <link rel="stylesheet" href="/static/school/assets/css/animate.css">
-        <!-- WooCOmmerce CSS -->
-        <link rel="stylesheet" href="/static/school/assets/css/woocommerce-layouts.css">
-        <link rel="stylesheet" href="/static/school/assets/css/woocommerce-small-screen.css">
-        <link rel="stylesheet" href="/static/school/assets/css/woocommerce.css">
         <!-- Owl Carousel  CSS -->
         <link rel="stylesheet" href="/static/school/assets/css/owl.carousel.min.css">
         <link rel="stylesheet" href="/static/school/assets/css/owl.theme.default.min.css">
@@ -93,29 +87,27 @@
                             
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" id="navbar3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Home<i class="fa fa-angle-down"></i>
+                                    <a class="nav-link dropdown-toggle" href="/school/home" id="navbar3" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Home
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbar3">
-                                        <a class="dropdown-item " href="/school/primary_site ">
-                                            Primary Home
-                                        </a>
-                                        <a class="dropdown-item " href="/school/home">
-                                            Welcome Page
-                                        </a>
-                                    </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="/school/primary_site " id="navbar3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Portal Services<i class="fa fa-angle-down"></i>
+                                    <a class="nav-link dropdown-toggle" href="/school/admissions" id="navbar3" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Admissions<i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbar3">
-                                        <a class="dropdown-item " href="/school/primary_site ">
-                                            Admission 
+                                        <a class="dropdown-item " href="/school/crèche_site">
+                                            Admission into Crèche
                                         </a>
-                                        <a class="dropdown-item " href="/school/primary_site ">
-                                            Student Portal
+                                        <a class="dropdown-item " href="/school/nursery_site">
+                                            Admission into Nursery
                                         </a>
+                                        <a class="dropdown-item " href="/school/primary_site">
+                                            Admission into Primary
+                                        </a> 
+                                        <a class="dropdown-item " href="/school/secondary_site">
+                                            Admission into Secondary
+                                        </a> 
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -130,10 +122,10 @@
                                             Orientation Day
                                         </a>
                                         <a class="dropdown-item " href="/school/events">
-                                            Escortion Day
+                                            Variety Show
                                         </a>
                                         <a class="dropdown-item " href="/school/events">
-                                            Other Activities
+                                            Escortion Day
                                         </a>
                                         <a class="dropdown-item " href="/school/events">
                                             Closing &amp; Resumption Day
@@ -141,8 +133,8 @@
                                     </div>
                                 </li>
 
-                                <li class="nav-item ">
-                                    <a href="/school/about" class="nav-link js-scroll-trigger">
+                                <li class="nav-item">
+                                    <a href="/school/about" class="nav-link js-scroll-trigger active">
                                         About
                                     </a>
                                 </li>
@@ -170,13 +162,14 @@
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="page-header-content">
+                      <h1>Who we are</h1>
                       <ul class="list-inline mb-0">
                         <li class="list-inline-item">
                           <a href="/school/home" id="breadcrumps">Home</a>
                         </li>
                         <li class="list-inline-item">/</li>
                         <li class="list-inline-item">
-                            Our Primary School
+                            About Us
                         </li>
                       </ul>
                     </div>
@@ -184,125 +177,157 @@
               </div>
             </div>
         </section>
-        <!-- Page Header end -->
-        
-        <!--Category section start--> 
-        <section class="category-section2">
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="course-categories">
-                        <div class="category-item category-bg-1">
-                            <a href="/school/crèche_site">
-                                <div class="category-icon">
-                                    <i class="fa fa-school"></i>
-                                </div>
-                                <h4>Visit our Crèche</h4>
-                            </a>
-                        </div>
-                        <div class="category-item category-bg-2">
-                            <a href="/school/nursery_site">
-                                <div class="category-icon">
-                                    <i class="fa fa-school"></i>
-                                </div>
-                                <h4>Visit our Nursery</h4>
-                            </a>
-                        </div>
+        <!-- Page Header End -->
 
-                        <div class="category-item category-bg-4">
-                            <a href="/school/secondary_site">
-                                <div class="category-icon">
-                                    <i class="fa fa-school"></i>
+        <section class="about-section section-padding about-2">
+            <div class="container">
+                <div class="row align-items-center">
+                     <div class="col-lg-6 col-md-12">
+                       <div class="about-img2">
+                           <img src="/static/school/assets/images/choose.png" alt="" class="img-fluid">
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="section-heading">
+                            <span class="subheading">Top Categories</span>
+                            <h3>Learn new skills to go ahead for your career</h3>
+                        </div>
+        
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores excepturi explicabo esse nisi molestias molestiae magni porro magnam, 
+                            iusto sunt aliquid necessitatibus optio quod iste facilis similique eos voluptatum sint?</p>
+        
+                        <a href="#" class="btn btn-main"><i class="fa fa-check mr-2"></i>Learn More</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="counter-wrap pb-100">
+            <div class="container">
+                <div class="row">
+                     <div class="col-lg-12 counter-inner">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="counter-item">
+                                    <i class="fa fa-desktop"></i>
+                                    <div class="count">
+                                        <span class="counter h2">90</span>
+                                    </div>
+                                    <p>Expert Instructors</p>
                                 </div>
-                                <h4>Visit our Secondary</h4>
-                            </a>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="counter-item">
+                                    <i class="fa fa-book"></i>
+                                    <div class="count">
+                                        <span class="counter h2">1450</span>
+                                    </div>
+                                    <p>Total Courses</p>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-3 col-md-6">         
+                                <div class="counter-item">
+                                    <i class="fa fa-heart"></i>
+                                    <div class="count">
+                                        <span class="counter h2">5697</span>
+                                    </div>
+                                    <p>Happy Students</p>
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-3 col-md-6">
+                                <div class="counter-item">
+                                    <i class="fa fa-microphone-alt"></i>
+                                    <div class="count">
+                                        <span class="counter h2">24</span>
+                                    </div>
+                                    <p>Creative Events</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Category section end--> 
 
-        <!-- About start -->
-        <section class="about-section section-padding about-2">
+        <section class="about-section section-padding pt-0">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="section-heading">
-                            <span class="subheading">Welcome To Our Primary</span>
-                            <h3>About The Primary</h3>
+                            <span class="subheading">Top Categories</span>
+                            <h3>Learn new skills to go ahead for your career</h3>
                         </div>
-                        <p>
-                            Brynno International School, is a school aimed at nurturing and training youths in intellectual excellence with sound moral values as well as sound academic knowledge. We believe that if a child is raised in the way he/she should go, (the way of the Lord), he will not depart from it he matures. The Word of God says it and we believe it wholeheartedly and are earnestly committed to achieving it.
-                        </p>
+        
+                        <div class="about-content">
+                            <div class="about-text-block">
+                                <i class="fa fa-video-camera"></i>
+                                <h4>Details Video tutorial</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicin gelit</p>
+                            </div>
+        
+                             <div class="about-text-block">
+                                <i class="fa fa-headset"></i>
+                                <h4>World Class Support</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicin gelit</p>
+                            </div>
+        
+                            <a href="#" class="btn btn-main-2"><i class="fa fa-check mr-2"></i>more About Support</a>
+                        </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="about-img2">
-                            <img src="/static/school/assets/images/news-3.jpg" alt="" class="img-fluid">
+                        <div class="about-img">
+                            <img src="/static/school/assets/images/2-2.png" alt="" class="img-fluid">
                         </div>
-                    </div>
+                     </div>
                 </div>
             </div>
-        </section> 
-        <!-- About end -->
-
-        <section class="about-section about-2">
-            <div class="container" id="activity-w3">
-                <div class="section-heading">
-                    <h3>School Activities</h3>
+        </section>
+        
+        <section class="cta-2 clients section-padding">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section-heading center-heading">
+                            <span class="subheading">Working Partners</span>
+                            <h3>Our valuable Partners</h3>
+                        </div>
+                    </div>
                 </div>
-                <div class="activity-grids">
-                    <div class="col-md-4 activity-grid">
-                        <div class="activity-bottom1">
-                            <h4>Daily School Activities</h4>
-                            <ul class="grid-part">
-                                <li><i class="fa fa-check"> </i>Morning Assembly</li>
-                                <li><i class="fa fa-check"> </i>Regular Classes</li>
-                                <li><i class="fa fa-check"> </i>Break time/recreational </li>
-                            </ul><br><br>
-                            <h4>Weekly School Activities</h4>
-                            <ul class="grid-part">
-                                <!-- <li><i class="fa fa-check"> </i>Club Meetings</li>
-                                <li><i class="fa fa-check"> </i>School Group Fellowship</li>
-                                <li><i class="fa fa-check"> </i>Bible Teaching/Prayer Meeting</li> -->
-                                <li><i class="fa fa-check"> </i>Sports/Games</li>
-                                <li><i class="fa fa-check"> </i>Staff Briefing (also as need arises)</li>
-                            </ul><br><br>
-                            <h4>Termly School Activities</h4>
-                            <ul class="grid-part">
-                                    <li><i class="fa fa-check"> </i>Staff Retreat</li>
-                                    <li><i class="fa fa-check"> </i>Staff Meeting</li>
-                                    <!-- <li><i class="fa fa-check"> </i>School Outreach</li> -->
-                                    <!-- <li><i class="fa fa-check"> </i>Board Inspection / supervision</li> -->
-                            </ul><br><br>
-                        
+        
+                <div class="row cta-2-inner">
+                    <div class="col-lg-2 col-sm-6 ">
+                        <div class="client-logo">
+                            <img src="/static/school/assets/images/logo1.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-md-4 activity-grid">
-                        <div class="activity-bottom1">
-                            <h4>Monthly School Activities</h4>
-                            <ul class="grid-part">
-                                <!-- <li><i class="fa fa-check"> </i>Staff Prayer Meeting</li> -->
-                                <li><i class="fa fa-check"> </i>Board Meeting</li>
-                                <li><i class="fa fa-check"> </i>Management Meeting</li>
-                            </ul><br><br>
-                            <h4>Annual School Activities</h4>
-                            <ul class="grid-part">
-                                <li><i class="fa fa-check"> </i>Graduation and prize-giving Ceremony</li>
-                                <li><i class="fa fa-check"> </i>Open Day Programme</li>
-                                <li><i class="fa fa-check"> </i>Orientation of New Students.</li>
-                                <li><i class="fa fa-check"> </i>Career Day</li>
-                                <li><i class="fa fa-check"> </i>PTA Meeting (also bi-termly)</li>
-                            </ul><br><br>
-                        </div>
-                        
-                    </div>
-
-                    <div class="col-md-4 activity-grid">
-                        <div class="activity-bottom1">
-                            <img src="/static/school/assets/images/blog_02.jpg" class="img-responsive img-polaroid"><br>
+                     <div class="col-lg-2 col-sm-6">
+                        <div class="client-logo">
+                            <img src="/static/school/assets/images/logo2.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="clearfix"></div>
+                     <div class="col-lg-2 col-sm-6">
+                        <div class="client-logo">
+                            <img src="/static/school/assets/images/logo3.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                     <div class="col-lg-2 col-sm-6">
+                        <div class="client-logo">
+                            <img src="/static/school/assets/images/logo4.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                     <div class="col-lg-2 col-sm-6">
+                        <div class="client-logo">
+                            <img src="/static/school/assets/images/logo5.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                     <div class="col-lg-2 col-sm-6">
+                        <div class="client-logo">
+                            <img src="/static/school/assets/images/logo6.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -399,10 +424,11 @@
         <!-- Footer end -->
 
         <div class="fixed-btm-top">
-            <a href="/school/primary_site#top-header" class="js-scroll-trigger scroll-to-top"><i class="fa fa-angle-up"></i></a>
+            <a href="/school/about#top-header" class="js-scroll-trigger scroll-to-top"><i class="fa fa-angle-up"></i></a>
         </div>
 
         <!--Essential Scripts=====================================-->
+        
         <!-- Main jQuery -->
         <script src="/static/school/assets/js/jquery.js.download"></script>
         <!-- Bootstrap 4.5 -->
@@ -412,7 +438,7 @@
         <script src="/static/school/assets/js/jquery.counterup.min.js.download"></script>
         <script src="/static/school/assets/js/jquery.isotope.js.download"></script>
         <script src="/static/school/assets/js/imagesloaded.js.download"></script>
-        <!--  Owlk Carousel-->
+        <!--  Owl Carousel-->
         <script src="/static/school/assets/js/owl.carousel.min.js.download"></script>
         <script src="/static/school/assets/js/script.js.download"></script>
 
