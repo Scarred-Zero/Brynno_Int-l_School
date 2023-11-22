@@ -3,7 +3,6 @@
     padding: 0px 30px;
   }
 }
-
 @media (min-width: 1200px) {
   .blog-item {
     margin-bottom: 0px;
@@ -26,7 +25,6 @@
     top: 100%;
   }
 }
-
 @media (max-width: 992px) {
   .section-padding {
     padding: 60px 0px;
@@ -191,7 +189,6 @@
     margin-top: 40px;
   }
 }
-
 @media (max-width: 768px) {
   .banner .banner-content h1 {
     font-size: 40px;
@@ -330,7 +327,6 @@
     margin-top: 40px;
   }
 }
-
 @media (max-width: 480px) {
   .site-navigation {
     padding: 10px 10px;

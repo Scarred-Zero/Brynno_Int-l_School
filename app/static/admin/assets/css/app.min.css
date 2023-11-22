@@ -17540,7 +17540,7 @@ strong {
   background: #4489e4;
 }
 body.authentication-bg {
-  background-image: url(../images/banner.jpeg);
+  background-image: url(../images/bg-profile.jpg);
   background-size: cover;
 }
 body.authentication-bg::after {
@@ -17552,8 +17552,8 @@ body.authentication-bg::after {
   left: 0;
   right: 0;
   z-index: -1;
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1px);
 }
 body.authentication-bg .account-pages {
   -webkit-box-align: center;
